@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TRMS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='trms.js'></script>
+    <link href="register.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body>
+<form action = "register" method = "post">
+	<div class="wrapper fadeInDown">
+                <div id="formContent">
+             
+                  <div class="fadeIn first">
+                  </div>
+  <div class="form-row">
+    <div class="col">
+    <label for="email">Name:</label>
+      <input type="text" class="form-control" id = "fullname" placeholder="Name">
+    </div>
+    <div class="col"> <!--fullname, username, password, email, title  -->
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="email">Username:</label>
+    <input type="text" class="form-control" id="username" placeholder="username">
+  </div>
+  <div class="form-group">
+    <label for="email">Password:</label>
+    <input type="password" class="form-control" id="password" placeholder="password">
+  </div>
+
+  <div class="form-group">
+    <label for="title">Title</label>
+    <select multiple class="form-control" id="title">
+      <option>Associate</option>
+      <option>Direct Supervisor</option>
+      <option>Department Head</option>
+      <option>Benefits Coordinator</option>
+      <option>Other</option>
+    </select>
+  </div>
+	<input type="submit" class="fadeIn fourth" value="Register">
+ 
+ </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TRMS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='trms.js'></script>
+    <link href="userlogin.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <div class="wrapper fadeInDown">
+                <div id="formContent">
+                  <!-- Tabs Titles -->
+              
+                  <!-- Icon -->
+                  <div class="fadeIn first">
+                    <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+                  </div>
+              
+                  <!-- Login Form -->
+                  <form action = "login" method = "post">
+	 				<input type="text" id="login" class="fadeIn second" name="username" placeholder="enter username">
+ 					<input type="text" id="password" class="fadeIn third" name="password" placeholder="enter password">
+					<input type="submit" class="fadeIn fourth" value="Log In">
+				 </form>
+              
+                  <!-- Remind Password -->
+                  <div id="formFooter">
+                  	<a class="underlineHover" href="register.html">Register</a>
+                  	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a class="underlineHover" href="#">Forgot Password?</a>
+                  </div>
+              
+                </div>
+</html>
